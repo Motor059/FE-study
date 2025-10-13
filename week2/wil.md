@@ -15,9 +15,13 @@
    - `<script>` : html을 js와 연결
       - ex : `<script src = "app.js"></script>`
    - `id` : id당 하나의 고유한 태그를 인식
+      - ex : `<button id = "increase"> +1 </button>`
    - `getElementById` : 특정 html 요소를 id로 선택
+      - ex : `const incButton = document.getElementById("increase");`
    - `textContent` : id에 해당하는 요소의 내용을 바꾸기 위해 사용
+      - ex : `number.textContent = count; // 숫자 변화 반영`
    - `addEventListener` : 클릭하는 등의 이벤트를 감지하여 실행
+      - ex : `incButton.addEventListener("click", increaseCount);`
 
 **JavaScript란?**
 - HTML만으로는 웹 문서가 일방적으로 정보를 주는 정적인 형태이기 때문에 서로 소통이 가능한 동적인 형태로 만들기 위한 언어라는 것을 배웠습니다. 
@@ -31,10 +35,10 @@
 
 **JavaScript 기본 문법**
 - `변수 선언`: let은 재할당이 가능한 변수, const는 재할당이 불가능한 상수를 선언할 때 사용합니다.
-    - let name = '소울치킨'; name = 'GDG Hongik'; // 재할당 가능
-    - const PI = 3.14; PI = 3.14159; // 오류 발생
+    - let Name = '김고스트'; Name = '감자'; // 재할당 가능
+    - const Pi = 3.14; Pi = 3.14159; // 오류 발생
 - `연산`: 산술 연산자 : +, -, *, /, % | 할당 연산자 : =, +=, -= | 비교 연산자: ==, === (값과 타입이 모두 같음), !=, !==, >, <
 - `반복문`: 일반 코드 작성법과 같이 for문, while문을 사용합니다.
 - `조건문`: 일반 코드 작성법과 같이 if, else if, else를 사용합니다. 
 - `함수`: 코드를 재사용할 수 있게 해주는 역할을 수행하는 코드로 function 키워드를 이용해 선언합니다.
-    - function increaseCount() {코드 내용}
+    - function increaseCount() { }

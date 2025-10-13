@@ -9,15 +9,15 @@
 - script 태그는 body의 맨 아래에 있는데 html 해석 속도 문제와 순서가 꼬일 수 있다는 문제 때문입니다.(자세한 것은 따로 공부)
 
 **사용한 주요 태그 및 기능**:
-    - `<h1>`: 글자의 제목(Heading)
-    - `<p>`: 문단(Paragraph)
-    - `<button>` : 상호작용 가능한 버튼 생성 / 
-    - `<script>` : html을 js와 연결
+   - `<h1>`: 글자의 제목(Heading)
+   - `<p>`: 문단(Paragraph)
+   - `<button>` : 상호작용 가능한 버튼 생성 / 
+   - `<script>` : html을 js와 연결
       - ex : `<script src = "app.js"></script>`
-    - `id` : id당 하나의 고유한 태그를 인식
-    - `getElementById` : 특정 html 요소를 id로 선택
-    - `textContent` : id에 해당하는 요소의 내용을 바꾸기 위해 사용
-    - `addEventListener` : 클릭하는 등의 이벤트를 감지하여 실행
+   - `id` : id당 하나의 고유한 태그를 인식
+   - `getElementById` : 특정 html 요소를 id로 선택
+   - `textContent` : id에 해당하는 요소의 내용을 바꾸기 위해 사용
+   - `addEventListener` : 클릭하는 등의 이벤트를 감지하여 실행
 
 **JavaScript란?**
 - HTML만으로는 웹 문서가 일방적으로 정보를 주는 정적인 형태이기 때문에 서로 소통이 가능한 동적인 형태로 만들기 위한 언어라는 것을 배웠습니다. 
